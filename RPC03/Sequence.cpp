@@ -21,11 +21,7 @@ int main(){
                     cout << i << endl;
                 }else{
                     long long result = calcularMCD(i, j);
-                    if(result == -1){
-                        cout << i << " "<< j << "/" << i << endl;
-                    }else{
-                        cout << i << " " << j/result << "/" << i/result << endl;
-                    }
+                    cout << i << " " << j/result << "/" << i/result << endl;
                 }
             }
             if(found) break;
